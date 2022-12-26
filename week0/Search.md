@@ -40,3 +40,51 @@ numerical cost associated with a given path.
   - transition model
   - goal test
   - path cost function
+
+
+### solution
+a sequence of actions that leads from the initial state to a goal state.
+
+### optimal solution
+a solution that has the lowest path cost among all solutions.
+
+### node
+a data structure that keeps track of
+  - a state
+  - a parent (node that generated this node)
+  - an action (action applied to parent to get node)
+  - a path cost (from initial state to node)
+
+
+## Approach
+
+Start with a frontier that contains the initial state.\
+Repeat:
+  - If the frontier is empty, then no solution.
+  - Remove a node from the frontier.
+  - If node contains goal state, return the solution.
+  - Expand node, add resulting nodes to the frontier.
+
+
+## Revised Approach
+
+Start with a frontier that contains the initial state.\
+Start with an empty explored set.\
+Repeat:
+  - If the frontier is empty, then no solution.
+  - Remove a node from the frontier.
+  - If node contains goal state, return the solution.
+  - Add the node to the explored set.
+  - Expand node, add resulting nodes to the frontier if they aren't already in the frontier or the explored set.
+
+### stack
+last-in first-out data type.
+
+### depth-first search
+search algorithm that always expands the deepest node in the frontier.
+
+###breadth-first search
+search algorithm that always expands the shallowest node in the frontier.
+
+### queue
+first-in first-out data type.
