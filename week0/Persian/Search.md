@@ -134,3 +134,28 @@
 اینکه جستجو در همۀ جیب های شلوارتان را تمام کرده باشید، از جستجوی شلوارتان دست می کشید و جای دیگری را
 میگردید.)
 
+#### مزایا :
+  -در بهترین شرایط، این الگوریتم سریع ترین الگوریتم است. اگر (خوش شانسی بیاورد) و همیشه مسیر
+صحیح راه حل را (به طور اتفاقی) انتخاب کند، آنگاه جستجوی اول عمق کمترین زمان ممکن را برای رسیدن
+به راه حل خواهد برد.
+
+#### معایب :
+  - ممکن است راه حلِ پیدا شده، بهینه نباشد.
+  - در بدترین شرایط، این الگوریتم تمامی مسیرهای ممکن را برای پیدا کردن راه حل بررسی می کند و بدین
+ترتیب، بیشترین زمان ممکن را برای رسیدن به راه حل خواهد برد.
+
+### شبه کد:
+```python
+# Define the function that removes a node from the frontier and returns it. 
+def remove(self): 
+  # Terminate the search if the frontier is empty, because this means that there is no solution. 
+  if self.empty(): 
+    raise Exception("empty frontier") 
+  else: 
+    # Save the last item in the list (which is the newest node added) 
+    node = self.frontier[-1] 
+    # Save all the items on the list besides the last node (i.e. removing the last node) 
+    self.frontier = self.frontier[:-1] 
+    return node
+```
+
