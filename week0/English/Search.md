@@ -157,3 +157,7 @@ return v
 ### evaluation function
 function that estimates the expected utility of the game from a given state.
 
+
+
+- ***last update: 2022 Dec 29***
+- ***State: complete***
