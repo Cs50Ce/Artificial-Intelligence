@@ -108,3 +108,52 @@ search algorithm that expands node with lowest value of **g(n) + h(n)**:
 optimal if
   - **h(n)** is **admissible** (never overestimates the true cost)
   - **h(n)** is **consistent** (for every node n and successor n' with step cost c, **h(n) ≤ h(n') + c**)
+
+
+## Adversarial Search
+
+### Minimax
+  - MAX (X) aims to maximize score.
+  - MIN (O) aims to minimize score.
+
+### Game
+  - S0 : initial state
+  - PLAYER(s) : returns which player to move in state s
+  - ACTIONS(s) : returns legal moves in state s
+  - RESULT(s, a) : returns state after action a taken in state s
+  - TERMINAL(s) : checks if state s is a terminal state
+  - UTILITY(s) : final numerical value for terminal state s
+
+### Minimax
+  - Given a state s:
+  - MAX picks action a in ACTIONS(s) that produces highest value of MIN-VALUE(RESULT(s, a))
+  - MIN picks action a in ACTIONS(s) that produces smallest value of MAX-VALUE(RESULT(s, a))
+
+### Minimax
+```java
+function MAX-VALUE(state):
+if TERMINAL(state):
+return UTILITY(state)
+v = -∞
+for action in ACTIONS(state):
+v = MAX(v, MIN-VALUE(RESULT(state, action)))
+return v
+```
+
+```java
+function MIN-VALUE(state):
+if TERMINAL(state):
+return UTILITY(state)
+v = ∞
+for action in ACTIONS(state):
+v = MIN(v, MAX-VALUE(RESULT(state, action)))
+return v
+```
+
+### Alpha-Beta Pruning
+
+### Depth-Limited Minimax
+
+### evaluation function
+function that estimates the expected utility of the game from a given state.
+
