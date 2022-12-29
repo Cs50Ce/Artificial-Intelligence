@@ -9,7 +9,7 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Degrees]()
     - [TicTacToe]()
     - [Maze]()
-  - Quizs
+  - Problems:
     - [Quiz Persian]()
 
 ### week 1:
@@ -20,7 +20,7 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Degrees]()
     - [TicTacToe]()
     - [Maze]()
-  - Quizs
+  - Problems:
     - [Quiz Persian]()
 
  ### week 2:
@@ -31,7 +31,7 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Degrees]()
     - [TicTacToe]()
     - [Maze]()
-  - Quizs
+  - Problems:
     - [Quiz Persian]()
 
  ### week 3:
@@ -42,7 +42,7 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Degrees]()
     - [TicTacToe]()
     - [Maze]()
-  - Quizs
+  - Problems:
     - [Quiz Persian]()
 
  ### week 4:
@@ -53,7 +53,7 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Degrees]()
     - [TicTacToe]()
     - [Maze]()
-  - Quizs
+  - Problems:
     - [Quiz Persian]()
 
  ### week 5:
@@ -64,7 +64,7 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Degrees]()
     - [TicTacToe]()
     - [Maze]()
-  - Quizs
+  - Problems:
     - [Quiz Persian]()
 
  ### week 6:
@@ -75,5 +75,5 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Degrees]()
     - [TicTacToe]()
     - [Maze]()
-  - Quizs
+  - Problems:
     - [Quiz Persian]()
