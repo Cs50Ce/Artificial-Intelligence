@@ -1,7 +1,7 @@
 # Artificial-Intelligence
 Introduction to Artificial Intelligence with Python in CS50
 
-### week 0:
+### week 0 (Search):
   - Documents:
     - [Search English](week0/English/Search.md)
     - [Search Persian](week0/Persian/Search.md)
