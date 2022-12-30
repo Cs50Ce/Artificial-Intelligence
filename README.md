@@ -6,7 +6,7 @@ Introduction to Artificial Intelligence with Python in CS50
     - [Search English](week0/English/Search.md)
     - [Search Persian](week0/Persian/Search.md)
   - Projects:
-    - [Degrees]()
+    - [Degrees](week0/Projects/Degrees.md)
     - [TicTacToe]()
     - [Maze]()
   - Problems:
