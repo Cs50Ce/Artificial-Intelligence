@@ -90,5 +90,6 @@ Name: Jennifer Lawrence
 آماده کرده ایم که حاوی پیاده ساز یهای درس برای Node ، StackFrontier و QueueFrontier ا ست. می توانید
 از آ نها استفاده کنید (و در صورت تمایل، آ نها را تغییر دهید).
 
+موفق باشید.
 - ***last update: 2022 Dec 31***
 - ***State: complete***
