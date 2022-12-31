@@ -3,8 +3,8 @@ Introduction to Artificial Intelligence with Python in CS50
 
 ### week 0 (Search):
   - Documents:
-    - [Search English](week0/English/Search.md)
-    - [Search Persian](week0/Persian/Search.md)
+    - [Search English](week0/English/Search.md) (complete)
+    - [Search Persian](week0/Persian/Search.md) (complete)
   - Projects:
     - [Degrees](week0/Projects/Degrees.md)
     - [TicTacToe]()
